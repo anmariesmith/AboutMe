@@ -1,13 +1,3 @@
-/* Nav Bar */
-
-.name-wrapper {
-  background-color: #4aaaa5;
-  font-family: "Pacifico", cursive;
-}
-
-.a-custom {
-  font-weight: 100%;
-}
 
 /* Background  */
 
@@ -42,7 +32,7 @@ h1 {
   margin-bottom: 100px;
 }
 
-/* About me Headshot */
+/* Main Site Headshot */
 .img-custom1 {
         object-fit: cover;
         border-radius: 50%;
@@ -71,7 +61,7 @@ h1 {
   position: relative;
 }
 
-/* Contact Form  */
+/* Contact Page */
 
 .img-custom2 {
     object-fit: cover;
@@ -85,10 +75,6 @@ h1 {
   padding-bottom: 20px;
   padding-top: 20px;
   border: 1px solid #4aaaa5;
-}
-
-.nav-lines {
-  color: lightgrey;
 }
 
 /* Sticky Footer  */

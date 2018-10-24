@@ -6,8 +6,10 @@ var particles = Particles.init({
   connectParticles: true
 });
 
+//Creating button values in an array //
 const navButtons= ["About Me", "Portfolio", "Contact"];
 
+//Function to append HTML to the page//
 const makeNavs = function () {
     $(".nav-cust").html("");
     console.log("I'm here");
@@ -19,9 +21,9 @@ const makeNavs = function () {
     }
 }
 
+//Thia ia how the nav sections are added to the page dynamically//
 const showNav= function() {
   const buttonVal = $(this).text(); //this gets the text from the button that was just clicked
-  console.log(buttonVal); //this logs it to console so you can see
   if (buttonVal === "About Me"){
     $("#port").addClass('hide');
   $("#aboutMe").removeClass('hide');
@@ -39,6 +41,6 @@ const showNav= function() {
   
 };
 
-
+//This tells the web page once my headshot is click to display the buttons/
 $('.img-custom1').on("click", makeNavs);
 
