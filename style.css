@@ -1,0 +1,124 @@
+/* Nav Bar */
+
+.name-wrapper {
+  background-color: #4aaaa5;
+  font-family: "Pacifico", cursive;
+}
+
+.a-custom {
+  font-weight: 100%;
+}
+
+/* Background  */
+
+html, body { height: 100% }
+
+body {
+  background-color:#163b44;
+}
+
+h1 {
+  text-align: center;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+}
+
+/* Main Section (About me, Contact, and Portfolio */
+.h2-custom {
+  font-family: "Pacifico", cursive;
+  color: #4aaaa5;
+  text-align: center;
+}
+
+.container-cust {
+  margin-bottom: 100px;
+}
+
+/* About me Headshot */
+.img-custom1 {
+        object-fit: cover;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+}
+/* Portfolio Boxes */
+.tnport {
+  position: relative;
+  width: 100%;
+}
+
+.sp1 {
+  position: absolute;
+  background-color: #4aaaa5;
+  height: 50px;
+  top: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pt-custom {
+  width: 100%;
+  position: relative;
+}
+
+/* Contact Form  */
+
+.img-custom2 {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.btn-custom {
+  background-color: #4aaaa5;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 1px solid #4aaaa5;
+}
+
+.nav-lines {
+  color: lightgrey;
+}
+
+/* Sticky Footer  */
+.footer1 {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 50px;
+  background-color: #666666;
+  border-top: 10px solid #4aaaa5;
+  text-align: center;
+}
+
+.footerText{
+    font-family: 'Pacifico', cursive;
+}
+
+
+/*------------------------
+    HIDE CLASS
+---------------------------*/
+
+.hide {
+    display: none;
+  }
+  
+
