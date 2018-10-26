@@ -173,4 +173,28 @@ canvas {
     display: none;
   }
   
-  
+.tnlink{
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+.tnlink:hover{
+  color: #666666;
+  text-decoration: none;
+}
+.contactlink{
+  color:#4aaaa5;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+}
+
+.contactlink:hover{
+  color: #666666;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+}
+
+.contactp{
+  text-align: center;
+}
+
