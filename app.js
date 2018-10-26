@@ -12,13 +12,13 @@ const navButtons= ["About Me", "Portfolio", "Contact"];
 //Function to append HTML to the page//
 const makeNavs = function () {
     $(".nav-cust").html("");
-    console.log("I'm here");
     for(let i=0; i<navButtons.length; i++){
         var navButton = navButtons[i] 
-        let buttonHTML = $(`<button class="btn-custom col-sm-12 col-md-3 mt-3 ml-2 mr-2 rounded">${navButton}</button>`);
+        let buttonHTML = $(`<button class="btn-custom btn-9 col-sm-12 col-md-3 mt-3 ml-2 mr-2 rounded"><span>${navButton}</span></button>`);
         buttonHTML.on("click", showNav);
         $(".nav-cust").append(buttonHTML);
     }
+    $('.welcome').addClass('hide');
 }
 
 //Thia ia how the nav sections are added to the page dynamically//
